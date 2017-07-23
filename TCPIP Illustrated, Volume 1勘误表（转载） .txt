@@ -1,0 +1,663 @@
+TCP/IP Illustrated, Volume 1勘误表（转载） 2008-03-31 12:41:43 
+
+
+
+分类： 
+
+
+
+ 
+转载：http://www.kohala.com/start/typos.tcpipiv1.txt
+W. Richard Stevens' Home Page：http://www.kohala.com/start/
+-----------------------------------------------------------------------------
+This file contains all typos found in the book "TCP/IP Illustrated, Volume 1"
+by W. Richard Stevens, Addison-Wesley, 1994, ISBN 0-201-63346-9.
+(Last updated May 26, 1998)
+
+Note: If you fetched this file using anonymous ftp from ftp.uu.net,
+      be aware that a more current copy can probably be found at
+      the home page http://www.kohala.com/~rstevens.
+
+See also the "Comments to Readers" at the end of this file.
+
+-----------------------------------------------------------------------------
+The following typos are corrected in the 14th Printing (check the bottom
+of the copyright page to see what printing you have).
+
+p.   8:	Class E addresses are defined by the high-order 4 bits all being
+	one.  Therefore, in Figure 1.5 the 5th bit from the left, which
+	contains 0 in the class E address, should be removed.  The number
+	of bits reserved for the future should be 28, not 27.  In Figure
+	1.6 the ending address of the range for class E addresses should
+	be 255.255.255.255, not 247.255.255.255.
+
+p. 260:	2nd last line on page: "the end that does the active open"
+	should be "the end that does the active close".
+
+-----------------------------------------------------------------------------
+The following typos are corrected in the 12th Printing (check the bottom
+of the copyright page to see what printing you have).
+
+p. 221:	End of 3rd paragraph: "set to this value (255)" should be "set to
+	pad bytes (0)".
+
+p. 366:	Figure 25.7: Caption: "IP address table" should be "UDP group".
+
+p. 366:	4th line of final paragraph: "(since they are" should be "(as
+	they are".
+
+p. 379:	2nd line of 2nd paragraph under "icmp group": "15 different codes"
+	should be "16 different codes".
+
+p. 385:	3rd line of 2nd paragraph: "(140.252.1.29 is a" should be
+	"(140.252.1.29 is on a".
+
+p. 399:	Figure 26.6: Caption beneath the send buffer on the right side of
+	the figure: "data written by Rlogin client" should be "data written
+	by Rlogin server".
+
+p. 411:	4th line of 2nd paragraph of item "3.": "interrupts keys" should
+	be "interrupt keys".
+
+p. 464:	Figure 29.2: "up to 400 bytes" should be "up to 408 bytes".
+
+p. 476:	1st line of last paragraph: "lines 130-168" should be "lines 132-168".
+
+p. 479:	2nd line of item "1.": "array up to" should be "array of up to".
+
+p. 522:	End of answer to 26.1: "2.600 ms" should be "2600 ms".
+
+-----------------------------------------------------------------------------
+The following typos are corrected in the 11th Printing (check the bottom
+of the copyright page to see what printing you have).
+
+p. 154:	2nd line beneath "The Worldwide Internet": "Antartica" should be
+	"Antarctica".
+
+-----------------------------------------------------------------------------
+The following typos are corrected in the 10th Printing (check the bottom
+of the copyright page to see what printing you have).
+
+p. 103:	First line of 2nd paragraph: "almost double" should be "more than
+	"double".
+
+p. 163:	"UDP Input Queue", last word of first sentence of second paragraph
+	should be "an" not "a" (i.e., "an application").
+
+p. 171:	2nd to last line on page: "A router must forward a net-directed
+	broadcast," should have "by default" before the comma.
+
+p. 267:	2nd paragraph of "Nagle Algorithm": the first two sentences
+	should be reworded as follows: "The algorithm says that when a TCP
+	connection has outstanding data that has not yet been acknowledged,
+	small segments cannot be sent until the outstanding data is
+	acknowledged.  Instead ..."
+
+p. 272:	End of 2nd to last paragraph: "interactive application across a
+	WAN".  Add "(See Exercise 19.3.)" to the end of this paragraph.
+
+p. 285:	11th line from top of page: "preventing it from sending any more
+	data" should be "meaning it will not send any more data".
+
+p. 285:	14th line from top of page: "(2048 bytes in this example, with a
+	maximum window of 4096)."  2048 should be 3072, and 4096 should be
+	6144.
+
+p. 291:	4th line from bottom of page: "are all the same," delete "all".
+
+p. 294: 6th line from bottom: "before the receiving application has issued
+	its first write": "write" should be "read".
+
+p. 299:	7th line from top: Delete the beginning of the sentence: "We'll
+	see later in this chapter that" so that the sentence begins with
+	"The first timeout is actually set for 1.5 seconds".
+
+p. 301:	Line below "sock -D -i ..." example: "from the 140.252.1 Ethernet"
+	should be "to the 140.252.1 Ethernet".
+
+p. 301:	5th line from bottom: "LAN connection" should be "WAN connection".
+
+p. 313:	2nd line from top: "first duplicate ACK" should be "third duplicate
+	ACK".
+
+p. 320:	Figure 21.13: the comment "Ethernet cable reconnected here" should
+	be between lines 7 and 8, not between lines 8 and 9.
+
+p. 321:	Exercise 21.1: Both occurences of "12" should be "24".
+
+p. 330:	Exercise 22.1: "between receiving the data and sending the ACK:
+	164.5" should be "between sending the data and receiving the ACK:
+	164.9".
+
+p. 334:	Last line of interactive output: "read error:" the "6 hours and
+	10 minutes" should be "6 hours and 11 minutes".
+
+p. 336:	4th line from bottom of page: "Nine more keepalive probes" should
+	be "Eight more keepalive probes".
+
+p. 344:	3rd row of Figure 24.5: 95,500 should be 96,500.
+
+p. 351:	Last line of Figure 24.8: "retransmitted segment reappears" should
+	be "lost segment reappears".
+
+p. 355:	8th line from bottom of page: "within 90%", delete "within".
+
+p. 362:	Figure 25.3: PDU types 2 and 3 are swapped: 2 is get-response and
+	3 is set-request.
+
+p. 420:	Figure 27.1: The box labelled "server protocol interface" should be
+	"server protocol interpreter".
+
+p. 446:	3rd paragraph from bottom of page: "a revised picture of Internet
+	mail (Figure 28.2)" should be "a revised picture of Internet mail
+	(Figure 28.1)".
+
+p. 451:	Last line before "VRFY and EXPN" heading: "next MX record with the
+	higher preference" should be "MX record with the next higher
+	preference".
+
+p. 452:	2nd line of last paragraph: "a EHLO command" should be "an EHLO
+	command".
+
+p. 453:	5th line from bottom of page: "a EHLO command" should be "an EHLO
+	command".
+
+p. 550:	For the [Partridge 1994] entry, in the line below it the word
+	"s peeds" should be "speeds".
+
+-----------------------------------------------------------------------------
+The following typos are corrected in the Eighth Printing (check the bottom
+of the copyright page to see what printing you have).
+
+p.  44:	Caption for Figure 3.7: "mask" should be "masks".
+
+p.  47:	First sentence of final paragraph of Section 3.7: "the broadcast
+	address for the Ethernet in Figure 3.10" should be "the broadcast
+	address for the bottom Ethernet in Figure 3.10".
+
+p.  50:	(This is not a typo, just additional information.)  Section 3.10
+	talks about a successor to IP version 4.  This successor has been
+	chosen and specified, and additional information is available from
+	the home page: http://playground.sun.com/ipng.  IP version 6 is
+	based on the SIP proposal, but with 128-bit addresses.
+
+p.  57: 2nd paragraph: The sentence "For example, an ARP request asks for
+	the protocol address (an IP address in this case) corresponding to
+	a hardware address (an Ethernet address in this case)." is backwards.
+	This should be "For example, an ARP request asks for the hardware
+	address (an Ethernet address in this case) corresponding to a
+	protocol address (an IP address in this case)."
+
+p.  59: 4th line of 6th paragraph: "request, in addition" should be
+	"request addressed to it, in addition".
+
+p.  59: Last line on page: Figure description should not be in a fixed-width
+	font.
+
+p. 101:	Last line of 1st paragraph: "(42 + 58/960)" should be "(42 + 58)/960".
+
+p. 119:	3rd line from top: "NFSNET" should be "NSFNET".
+
+p. 126:	1st line, 2nd paragraph of Exercise 9.3: "receives" should be
+	"receive".
+
+p. 140:	End of 3rd line of 2nd to last paragraph: "This represents 65536
+	different class C network IDs" should be "This represents 131,072
+	different class C network IDs".
+
+p. 149:	2nd paragraph: "The fragment offset field contains the offset" should
+	be "The fragment offset field contains the offset (in 8-byte units)"
+
+p. 172:	4th line of "All-subnets-directed Broadcast": "the IP address
+	128.1.255.255" reads better as "the class B IP address 128.1.255.255".
+
+p. 206:	3rd line of last paragraph of Section 14.8: "used" should be "use".
+
+p. 220:	5th line from the top: "But if the client sends a" should be "But if
+	the BOOTP server sends a".
+
+p. 229:	In the 2nd line of the Telnet example at the bottom of the page,
+	the IP address printed should be "140.252.13.35", not "192.82.148.3".
+
+p. 235:	In the 2nd line of the Telnet example towards the bottom of the page,
+	the IP address printed should be "140.252.13.34", not "192.82.148.2".
+
+p. 284:	First line of Section 20.5: "every one our" should be "every one
+	of our".
+
+p. 286:	3rd line above Section 20.7: "Although three more could be sent,
+	only two are sent before another ACK is received."  This should be
+	"Two more segments are sent (not three) because the ACK for segment 4
+	is still outstanding."  Then add another sentence: "When the ACK in
+	segment 8 is received, the congestion window is increased to 4 but
+	only two more segments are sent, because the ACKs for segments 6 and
+	7 are still outstanding."
+
+p. 312:	Item 1 at the bottom of the page: "set ssthresh to one-half ..."
+	should be reworded as "set ssthresh to one-half of the minimum of
+	the current congestion window (cwnd) and the receiver's advertised
+	window."
+
+p. 395:	3rd line of 3rd paragraph: "the number of characters per column
+	(e.g., 80)" should be "the number of characters per row (e.g., 80)"
+
+p. 463:	Figure 29.1: the maximum sizes of the credentials and verifier are
+	both 408 bytes, not 400.
+
+p. 467:	Item 3 at the bottom of the page, change final sentence to be:
+	"Although the NFS server could use an ephemeral port that it then
+	registers with the port mapper, UDP port 2049 is hardcoded
+	into most implementations".
+
+p. 469:	5th line from bottom: "although this increases with version 3 to
+	64 bytes" should be "although with version 3 this changes from a
+	fixed-length field to a variable-length field of up to 68 bytes."
+
+p. 483:	6th line of 1st paragraph of Section 30.3: "out of data" should
+	be "out of date".
+
+p. 532:	ip_respond_to_timestamp_broadcast entry: change the final sentence to
+	be "If 1, it responds if ip_respond_to_timestamp is also set."
+
+p. 536:	tcp_status entry: replace "connections" with "endpoints".
+
+p. 565:	Add page 49 to the index entry for MTU.
+
+-----------------------------------------------------------------------------
+The following typos are corrected in the Seventh Printing (check the bottom
+of the copyright page to see what printing you have).
+
+p.  89:	In the ping example the IP address printed for the host slip
+	should be 140.252.13.65, not 192.42.62.1.
+
+p. 483:	First paragraph of Section 30.3: "RFC 954 [Harrenstein," should be
+	"RFC 954 "[Harrenstien,".
+
+p. 547:	First reference: "Harrenstein" should be "Harrenstien".
+
+p. 561:	The entry for "Harrenstein" should be "Harrenstien".
+
+-----------------------------------------------------------------------------
+The following typos are corrected in the Sixth Printing (check the bottom
+of the copyright page to see what printing you have).
+
+p. xix:	Add the author's home page address beneath his email address:
+	http://www.noao.edu/~rstevens
+
+p.  27:	Halfway down the page: "negotiate to omit the constant flag and
+	address fields" should be "negotiate to omit the constant address
+	and control fields".
+
+p.  55:	2nd line of item 7: "sender is asking for its IP address" should be
+	"sender is asking for its hardware address".
+
+p. 114:	3rd line from top: "Also, most versions" should be "Also, some
+	versions".
+
+p. 114:	2nd last paragraph: First, change the first two occurrences of "subnet
+	mask" to just "mask".  Then, insert "the subnet mask of the interface,"
+	before "0xffffffe0".  Finally, replace the final sentence of this
+	paragraph ("Since the kernel knows ...") with the following:
+
+	  "For a network route to a directly connected network, the routing
+	  table mask defaults to the subnet mask of the interface.  But in
+	  general the routing table mask can assume any 32-bit value.  A value
+	  other than the default can be specified as an option to the route
+	  command."
+
+inside back cover: the acronym entires for EOL and EGP are swapped
+	alphabetically.
+
+-----------------------------------------------------------------------------
+The following typos are corrected in the Fifth Printing (check the bottom
+of the copyright page to see what printing you have).
+
+p.  16:	Indented paragraph at bottom of page: "As of this writing ..." can
+	be deleted, since the issue was settled in the Spring of 1994.
+
+p.  17:	Figure 1.10: Add "fast retransmit" to 4.3BSD Tahoe.
+	Add "fast recovery" to 4.3BSD Reno.
+	Replace the dashed line with question marks from 4.4BSD to Net/3
+	with a solid line.
+	Replace the lower left release ("BSD Networking Software Release 3.0
+	(199?): Net/3" with "4.4BSD-Lite (1994) also referred to as Net/3".
+
+p.  22:	4th line from the top: "802.2 and 803.3" should be "802.2 and 802.3".
+
+p.  63:	The 6th line of item 2 at the top of the page: "receives an ARP request
+	for an IP address": the word "for" should be replaced with "from".
+	Notice in the example in Figure 4.7 both IP addresses are the same,
+	but the wording is clearer changing the "for" to a "from", and this
+	rewording matches the algorithm in RFC 826 also.
+
+p. 258:	The "sock" example on this page should specify a port of 7777, not 5555
+	(the tcpdump output in Figure 18.24 shows 7777 as the server port).
+
+p. 298:	8th line from top of page: "recovery algorithm, and see how it lets"
+	should be "recovery algorithms, and see how they let".
+
+p. 314:	2nd from last line: "Figure 21.10 is similar to Figure 21.9" should
+	be "Figure 21.11 is similar to ...".
+
+p. 333:	8 lines from bottom of page: "Let's see what happens when the client
+	host crashes and does not reboot.": "client" should be "server".
+
+p. 334:	2nd bullet at top: "We expect the server to send 10 keepalive probes":
+	"server" should be "client".
+
+p. 356:	Last line of item 3: "1.073 Gbytes" should be "1 Gbyte" since "G"
+	was defined on p. 351 to be 1024 x 1024 x 1024.
+
+p. 361:	Figure 25.2, "trap type (0-7)" should be "trap type (0-6)".
+
+p. 365:	2nd line after Figure 25.6: "(1.3.5.1.4.1)" should be "(1.3.6.1.4.1)".
+
+p. 395:	3rd line of 3rd paragraph: "the number of characters per row (e.g.,
+	25)" should be "the number of rows (e.g., 25)".
+
+p. 415:	Item 2, "and WILL ECHO" should be "and DO ECHO".
+
+p. 427:	3rd line after FTP example: "listing of a singe file" should be
+	"listing of a single file".
+
+p. 451:	6th line after Figure 28.5: "it tries the other IP address on line 2"
+	should be "it tries the other IP address on line 3".
+
+p. 481:	3rd line from the bottom: "a one-line query The" should have a period
+	after "query".
+
+p. 506:	4th line of -P option description: "When used with the sink source
+	(-i)" should be "When used with the source client (-i)".
+
+p. 551:	In the description for [Reynolds and Postel 1992]" change "is
+	update" to "is updated".
+
+p. 556:	Delete the entry for "Berkeley Packet Filter".
+
+p. 557:	Change "BPF (Berkeley Packet Filter)" to "BPF (BSD Packet Filter)".
+	The ACRONYM entry for BPF on the inside back cover should also be
+	changed accordingly.
+
+p. 557:	Change the index entry for "Casnet" to "Casner".
+
+p. 562:	Add pages 91-96 to "IP, options" (last line of right column).
+
+p. 567:	Add page 10 to the entry for "protocol field, IP".
+
+-----------------------------------------------------------------------------
+The following typos are corrected in the Fourth Printing (check the bottom
+of the copyright page to see what printing you have).
+
+p. xii:	Section 21.7: "Algorithm" should be "Algorithms".
+
+p.   7:	Third sentence of second paragraph: "In Figure 1.4 we also show an
+	application accessing IP."  should be "In Figure 1.4 we also show an
+	application accessing IP directly."
+	
+p.  29:	Last line of page: "In Section 3.8 we'll use the ifconfig command"
+	should be "In Section 3.9 we'll use the netstat command."
+
+p.  74:	Figure 6.6: the values for the "type" field should be "(13 or 14)",
+	not "(17 or 18)"
+
+p.  85:	The name "ping" was taken from the sonar ping; it does not stand for
+	Packet InterNet Groper.  It was written by Mike Muuss.
+
+p.  96:	3rd line from top, end of line: "that is uses" should be "that it
+	uses."
+
+p. 115:	3rd line from bottom of page: "ftp 140.252.13.32" should be
+	"ftp 140.252.13.34".
+
+p. 127:	Last line of Section 10.1: "converse" should be "conserve".
+
+p. 307: Last two words on page: "Figure 21.6" should be "Figure 21.7".
+
+p. 309:	Last sentence of second paragraph: "This is Jacobson's fast retransmit
+	and fast recovery algorithm, which we discuss in Section 21.7" should
+	be "This is Jacobson's fast retransmit algorithm, which is followed by
+	his fast recovery algorithm.  We discuss both algorithms in Section
+	21.7."  (See p. 312 corrections below.)
+
+p. 311:	Second paragraph: the inclusion of "a small fraction of the segment
+	size (the segment size divided by 8)" is an implementation error
+	that was in all the 4.3BSD releases and is still in 4.4BSD.  This
+	error should not be emulated in future implementations [Floyd 1994].
+	Nevertheless, notice that the examples that follow in the chapter
+	include this term (e.g., the bottom of p. 313) because that's what's
+	being done by the incorrect implementations (e.g., Figures 21.9
+	and 21.11).
+
+p. 312: The text does not adequately distinguish between the "fast retransmit"
+	and "fast recovery" algorithms.  They are two separate algorithms.
+	The fast retransmit algorithm is when TCP deduces from a small
+	number of consecutive duplicate ACKs that a segment has been lost,
+	and the sequence number of the missing segment.  The missing segment
+	is retransmitted.  The fast recovery algorithm says that after the
+	fast retransmit, congestion avoidance but not slow start is performed.
+
+	The fast retransmit algorithm first appeared in 4.3BSD Tahoe, but it
+	was incorrectly followed by slow start.  The fast recovery algorithm
+	was implemented in 4.3BSD Reno.
+
+p. 314:	8 lines from the bottom of the page: "This is the fast retransmit
+	and fast recovery algorithm" should be "This is the fast retransmit
+	algorithm".  At the end of this paragraph, following "data to arrive)"
+	should be the sentence "This is the fast recovery algorithm."
+
+p. 321:	Third paragraph of Summary: "and fast retransmit and fast recovery"
+	should be "fast retransmit, and fast recovery."
+
+p. 324:	In the example on this page the client is running on "bsdi" and
+	the server on "svr4".  The tcpdump output is correct, but "bsdi"
+	and "svr4" are swapped in the prose before the figure.
+
+p. 325:	Item 1 at the bottom of the page: "The receiver must not advertise
+	small segments" should be "The receiver must not advertise small
+	windows."
+
+p. 383:	2nd to last paragraph: "There is an extra hop ...".  Add the
+	sentence "The router swnrt is R3 from Figure 3.6 (p. 43)." to
+	this paragraph.  (This is not a typo, just additional information.)
+
+p. 396:	Second paragraph under "Initial Client-Server Protocol", "can be
+	see" should be "can be seen".
+
+p. 404:	Near the top, right before the example <IAC, DO, 24>: "If the
+	receiver (the client) says OK" should be "If the receiver (the
+	server) says OK".
+
+p. 519:	First line on page "on sun and So, yes" should be "on sun and
+	bsdi.  So, yes"
+
+p. 546:	An entry "Floyd, S.  1994.  Private Communication." should appear.
+
+p. 549:	A PostScript copy of the paper by McCanne and Jacobson is
+	available via anonymous ftp from the host ftp.ee.lbl.gov in the
+	file papers/bpf-usenix93.ps.Z.
+
+p. 560:	There should be an index entry "errata, 437" for how to fetch
+	this file.
+
+p. 560:	There should be an entry "Floyd, S., 546".
+
+p. 565:	Add an entry for p. 85 to "Muuss, M.".
+
+-----------------------------------------------------------------------------
+The following typos are corrected in the Third Printing (check the bottom
+of the copyright page to see what printing you have).
+
+p.  15:	The "Internet Official Protocol Standards" is now RFC 1600
+	[Postel 1994].
+
+p.  16:	Last sentence of Section 1.13: "can communicate with each using
+	TCP/IP" should be "can communicate with each other using TCP/IP."
+
+p.  20:	The final exercise is "1.8" not ".8".
+
+p.  31:	2nd to last paragraph in Section 2.10: "but the error detection may
+	increase the amount of time" should be "but the error correction may
+	increase the amount of time."
+
+p.  65:	End of first paragraph, Section 5.2: "has a value of 2 for an RARP
+	request and 3 for an RARP reply" should be "has a value of 3 for an
+	RARP request and 4 for an RARP reply."
+
+p.  76:	Line before "Alternatives": "is 51.5 ms fast and 38.5 ms fast" should
+	be worded "is between 38.5 and 51.5 ms fast."
+
+p.  82:	Figure 6.12: the final column for the following 3 entries should say
+	"No route to host" instead of "Network is unreachable":
+		type=3, code=6:  destination network unknown
+		type=3, code=9:  dest. network administratively prohibited
+		type=3, code=11: network unreachable for TOS
+
+p.  82:	Figure 6.12: 4.4BSD ignores the obsolete information request message,
+	the kernel does not generate a reply.
+
+p. 108:	2nd paragraph following Figure 8.10: "the timeout used by tcpdump"
+	should be "the timeout used by traceroute".
+
+p. 115:	Item 2 about halfway down the page, in the last sentence "the
+	gateway 140.252.13.33" should be "the gateway 140.252.13.35".
+
+p. 143:	Last line of first paragraph: "what actually gets sent in an IP
+	datagram" should be worded "what actually gets sent in a single
+	IP datagram."
+
+p. 147:	Last word on the page: "sink" should be "source".
+
+p. 259:	In the implementation note at the bottom of the page: "LIFO (last-in,
+	last out)" should be "LIFO (last-in, first-out)".
+
+p. 289:	Middle of the page: "at times 24-32" should be "at times 24-31."
+
+p. 316:	Middle of the page: "duplicate ACKs in segments 64, 65, and 66" should
+	be "duplicate ACKs in segments 64 and 65."
+
+p. 325: 2nd sentence of Section 22.3: "When it occurs" should have a comma
+	after "occurs".
+
+p. 329:	2nd paragraph: "The size of the receiver's buffer increases ..." is
+	misleading.  Better wording is "The amount of data in the receiver's
+	buffer increases ..."
+
+p. 346:	2nd line after Figure 24.6: "bit of data has reaches" should be
+	"bit of data reaches".
+
+p. 370:	Paragraph above "get-next Operator": "because that's what sent"
+	should be "because that is what's sent."
+
+p. 385:	Paragraph before Section 25.10: "gemini is intended to be a multiuser
+	host" should be "gemini is intended to be a multihomed host."
+
+p. 405: The last line of item 3 should end with a period (after the final
+	word "server").
+
+p. 443:	Halfway down the page: "Normally the optional text that follows"
+	reads better with the first "optional" removed.  Also add the
+	following sentence to the end of this paragraph: "The text
+	beginning with Sendmail is optional."
+
+p. 452: Last paragraph, add the sentence: "(In a multiline reply all lines
+	except the last have a hyphen after the numeric reply code.  The last
+	line has a space after the numeric reply code.)"
+
+p. 472: Item 3 (STATFS): replace "optimum" with "optimal".
+
+p. 479:	Third line from top: "recent recent" should be "recent".
+
+p. 479:	The reference for NFSv3 in the first sentence of Section 29.7 should be
+	dated 1994, because a new version was released on 2/16/94 by Sun.
+
+p. 480:	Exercise 29.1: "RCP" should be "RPC".
+
+p. 480:	Exercise 29.2: "well-known port" should be "well-known ports".
+
+p. 480:	Exercise 29.8: "maximum of 512 per host" should be "maximum of 1023
+	per host."
+
+p. 486:	Second paragraph: "To access WWW" should have a comma after "WWW".
+
+p. 490:	Last sentence of "Low Bandwidth X": "should appear late in 1993"
+	should now be "should appear early in 1994".
+
+p. 496:	3rd line above Section A.6: "writable only the owner" should be
+	"writable only by the owner".
+
+p. 544:	The paper by Caceres should appear before the paper by Callon.
+
+p. 546:	A PostScript copy of the paper by Danzig, Obraczka, and Kumar is
+	available via anonymous ftp from the host caldera.usc.edu in the
+	file pub/danzig/dns.ps.Z.
+
+p. 546:	In the title of the paper by Droms, et al. the word "system" should
+	be capitalized.
+
+p. 548:	A PostScript copy of the paper by Karn and Partridge is now available
+	via anonymous ftp from the host sics.se in the file
+	pub/craig/karn-partridge.ps.
+
+p. 550:	The paper by Papadopoulos and Parulkar is on pages 199-216.
+
+p. 551:	RFC 1540 [Postel 1993] has been obsoleted by RFC 1600 [Postel 1994]
+	(Mar. 1994).
+
+p. 553:	The reference for "NFS Version 3" should be dated 1994.
+
+p. 555:	Last sentence before start of index: "compund" should be "compound".
+
+-----------------------------------------------------------------------------
+The following typos are corrected in the Second Printing (check the bottom
+of the copyright page to see what printing you have).
+
+p.  15:	The "IAB Official Protocol Standards" is really the "Internet Official
+	Protocol Standards".
+
+p.  15:	The "Internet Official Protocol Standards" is now RFC 1540
+	[Postel 1993].
+
+p.  26:	RFC 1331 [Simpson 1992] has been obsoleted by RFC 1548 [Simpson 1993].
+
+p. 215:	RFC 1532 [Wimer 1993] has been obsoleted by RFC 1542 [Wimer 1993].
+
+p. 222:	RFC 1531 [Droms 1993] has been obsoleted by RFC 1541 [Droms 1993].
+
+p. 546:	RFC 1531 [Droms 1993] has been obsoleted by RFC 1541 [Droms 1993]
+	(Oct. 1993).
+
+p. 550: The Partridge & Pink paper has now appeared in print so the page
+	numbers can be added to the bibliographic reference: pp. 429-440.
+
+p. 551:	RFC 1500 [Postel 1993] has been obsoleted by RFC 1540 [Postel 1993]
+	(Oct. 1993).
+
+p. 552:	RFC 1331 [Simpson 1992] has been obsoleted by RFC 1548 [Simpson 1993]
+	(Dec. 1993).
+
+p. 553:	RFC 1532 [Wimer 1993] has been obsoleted by RFC 1542 [Wimer 1993]
+	(Oct. 1993).
+
+p. 561:	The entry "Official Protocol Standards" under "IAB" should be removed.
+
+p. 562:	An entry "Internet Official Protocol Standards, 15" should be added
+	after the entry "Internet Group Management Protocol".
+
+p. 566:	The term "IAB" in the entry "Official Protocol Standards" should be
+	replaced with "Internet".
+
+-----------------------------------------------------------------------------
+The following are Comments to the Reader, they are not typos to be fixed.
+
+p. 524:	The answer to 29.4 is wrong, but I no longer have access to the
+	older SVR4 TCP/IP implementation to see exactly what happens.
+	The basic problem is that when the hardware address of svr4
+	changes, it will no longer receive any of sun's requests.  And
+	as noted in the solution, svr4 does not send a gratuitous ARP.
+	If sun takes 20 minutes to time out its old ARP entry for svr4,
+	then it will take up to 20 minutes before it learns of the svr4's
+	new hardware address.  It would also be possible for svr4 to try
+	and contact sun for some other purpose, after rebooting, in which
+	case it will broadcast an ARP request looking for sun's hardware
+	address, causing sun to update its ARP entry for svr4.
+
