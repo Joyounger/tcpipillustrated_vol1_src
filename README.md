@@ -1,6 +1,8 @@
 # tcpipillustrated_vol1_src
 TCPIP Illustrated, Volume 1 source code
 
+unix版本的，有些需要修改makefile及源码  
+在Unix系统上顺利编译通过，但在linux系统上需要修改一下源代码。但是核心代码在Unix和Linux上都是一样的。  
 
 Preface
 -------
